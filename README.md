@@ -2,6 +2,7 @@
 Project that simulates an art gallery developed for the Programmer Analyst Program at CDI College Montréal in 2020.
 
 Implemented with C#
+
 Project use Lists so no data input its stored after the program execution ends.
 
 What is included

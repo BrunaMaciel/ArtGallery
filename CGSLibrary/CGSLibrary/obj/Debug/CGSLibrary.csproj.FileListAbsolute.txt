@@ -1,0 +1,11 @@
+D:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\bin\Debug\CGSLibrary.dll
+D:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\bin\Debug\CGSLibrary.pdb
+D:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\obj\Debug\CGSLibrary.csprojAssemblyReference.cache
+D:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\obj\Debug\CGSLibrary.csproj.CoreCompileInputs.cache
+D:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\obj\Debug\CGSLibrary.dll
+D:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\obj\Debug\CGSLibrary.pdb
+E:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\bin\Debug\CGSLibrary.dll
+E:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\bin\Debug\CGSLibrary.pdb
+E:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\obj\Debug\CGSLibrary.csprojResolveAssemblyReference.cache
+E:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\obj\Debug\CGSLibrary.dll
+E:\6-Programming Techniques\Projects\Part2\v3\CGSLibrary\CGSLibrary\obj\Debug\CGSLibrary.pdb

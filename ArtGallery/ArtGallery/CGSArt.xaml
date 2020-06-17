@@ -1,0 +1,86 @@
+﻿<Window x:Class="ArtGallery.CGSArt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArtGallery"
+        mc:Ignorable="d"
+        Title="CGS" Height="359.664" Width="392.437">
+    <Grid>
+        <TabControl x:Name="tabControl" HorizontalAlignment="Stretch" Height="Auto" Margin="0" VerticalAlignment="Stretch" Width="Auto">
+            <TabItem Header="Curators">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="44*"/>
+                        <ColumnDefinition Width="145*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="curatorsText" HorizontalAlignment="Left" Margin="18,0,0,10" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Height="99" Width="343" Background="#FFF" Grid.ColumnSpan="2" ScrollViewer.CanContentScroll="True" VerticalScrollBarVisibility="Auto"/>
+                    <Button x:Name="addCurator" Content="Add" HorizontalAlignment="Left" Margin="198,111,0,0" VerticalAlignment="Top" Width="75" Click="addCurator_Click" Grid.Column="1"/>
+                    <Button x:Name="listCurators" Content="List Curators" HorizontalAlignment="Left" Margin="198,81,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="listCurators_Click"/>
+                    <Label x:Name="curatorIDLabel" Content="ID" HorizontalAlignment="Left" Margin="56,65,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="curatorID" HorizontalAlignment="Left" Height="23" Margin="36,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <Label x:Name="curatorNameLabel" Content="Name" HorizontalAlignment="Left" Margin="56,116,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="curatorName" HorizontalAlignment="Left" Height="23" Margin="36,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <Button x:Name="searchCurators" Content="Search" HorizontalAlignment="Left" Margin="198,51,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="SearchCurators_Click"/>
+                    <Button x:Name="deleteCurators" Content="Delete" HorizontalAlignment="Left" Margin="198,141,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" RenderTransformOrigin="-1.133,-0.05" Click="DeleteCurators_Click" />
+                    <DockPanel Height="auto" HorizontalAlignment="Stretch" Margin="0"   Name="dockPanel1" VerticalAlignment="Top" Width="Auto">
+                        <Menu Height="23" Name="curatorsMenu" HorizontalAlignment="Stretch" Width="Auto" DockPanel.Dock="Top"  VerticalAlignment="Top" Margin="0,0,-290,0">
+                            <MenuItem Header="_File">
+                                <MenuItem x:Name="ReadMenuButton" Header="_Read" Click="ReadMenuButton_Click" />
+                                <MenuItem x:Name="SaveMenuButton" Header="_Save" Click="SaveMenuButton_Click" />
+                            </MenuItem>
+                        </Menu>
+                    </DockPanel>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Artists">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="44*"/>
+                        <ColumnDefinition Width="145*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="artistsText" HorizontalAlignment="Left" Margin="18,0,0,10" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Height="99" Width="343" Background="#FFF" Grid.ColumnSpan="2" ScrollViewer.CanContentScroll="True" VerticalScrollBarVisibility="Auto"/>
+                    <Button x:Name="addArtist" Content="Add" HorizontalAlignment="Left" Margin="198,111,0,0" VerticalAlignment="Top" Width="75" Click="addArtist_Click" Grid.Column="1"/>
+                    <Button x:Name="listArtists" Content="List Artists" HorizontalAlignment="Left" Margin="198,81,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="listArtists_Click"/>
+                    <Label x:Name="artistIDLabel" Content="ID" HorizontalAlignment="Left" Margin="56,65,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="artistID" HorizontalAlignment="Left" Height="23" Margin="36,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <Label x:Name="artistNameLabel" Content="Name" HorizontalAlignment="Left" Margin="56,116,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="artistName" HorizontalAlignment="Left" Height="23" Margin="36,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <Button x:Name="searchArtists" Content="Search" HorizontalAlignment="Left" Margin="198,51,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="SearchArtists_Click"/>
+                    <Button x:Name="deleteArtists" Content="Delete" HorizontalAlignment="Left" Margin="198,141,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" RenderTransformOrigin="-1.133,-0.05" Click="DeleteArtists_Click" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Art Pieces">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="piecesText" HorizontalAlignment="Left" Margin="10,0,0,10" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="80" Width="341" Background="#FFF" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" ScrollViewer.HorizontalScrollBarVisibility="Auto" AutomationProperties.IsOffscreenBehavior="Onscreen"/>
+                    <Button x:Name="addArtPiece" Content="Add" HorizontalAlignment="Left" Margin="276,135,0,0" VerticalAlignment="Top" Width="75" Click="addArtPiece_Click"/>
+                    <Button x:Name="deletePiece" Content="Delete" HorizontalAlignment="Left" Margin="276,163,0,0" VerticalAlignment="Top" Width="75" Click="DeletePiece_Click"/>
+                    <Button x:Name="sellPiece" Content="Sell" HorizontalAlignment="Left" Margin="129,180,0,0" VerticalAlignment="Top" Width="75" Click="SellArtPiece_Click"/>
+                    <Button x:Name="listPieces" Content="List Pieces" HorizontalAlignment="Left" Margin="276,109,0,0" VerticalAlignment="Top" Width="75" Click="listArtPieces_Click"/>
+                    <Button x:Name="searchPiece" Content="Search" HorizontalAlignment="Left" Margin="276,81,0,0" VerticalAlignment="Top" Width="75" Click="SearchPiece_Click"/>
+                    <Label x:Name="piecdIDLabel" Content="ID" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="pieceID" HorizontalAlignment="Left" Height="23" Margin="119,13,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Label x:Name="pieceTitleLabel" Content="Title" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="pieceTitle" HorizontalAlignment="Left" Height="23" Margin="119,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Label x:Name="piecdYarLabel" Content="Year" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="pieceYear" HorizontalAlignment="Left" Height="23" Margin="117,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Label x:Name="pieceEstimateLabel" Content="Estimated Value" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="pieceEstimate" HorizontalAlignment="Left" Height="23" Margin="117,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Label x:Name="piecdArtistIDLabel" Content="Artist ID" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="pieceArtistID" HorizontalAlignment="Left" Height="23" Margin="117,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Label x:Name="piecdCuratorIDLabel" Content="Curator ID" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="pieceCuratorID" HorizontalAlignment="Left" Height="23" Margin="117,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <GroupBox x:Name="pieceStatus" Header="Status" HorizontalAlignment="Left" Margin="269,13,0,0" VerticalAlignment="Top" Height="Auto" Width="99">
+                        <StackPanel HorizontalAlignment="Left" Height="Auto" Margin="0" VerticalAlignment="Top" Width="Auto">
+                            <RadioButton x:Name="pieceOnDisplay" Content="On Display" IsChecked="True"/>
+                            <RadioButton x:Name="pieceInStorage" Content="In Storage"/>
+                        </StackPanel>
+                    </GroupBox>
+                    
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

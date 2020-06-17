@@ -1,0 +1,8 @@
+E:\6-Programming Techniques\Projects\Part1\v3\ArtGallery\ArtGallery\bin\Debug\ArtGallery.exe.config
+E:\6-Programming Techniques\Projects\Part1\v3\ArtGallery\ArtGallery\obj\Debug\ArtGallery.csprojResolveAssemblyReference.cache
+E:\6-Programming Techniques\Projects\Part1\v3\ArtGallery\ArtGallery\bin\Debug\ArtGallery.exe
+E:\6-Programming Techniques\Projects\Part1\v3\ArtGallery\ArtGallery\bin\Debug\ArtGallery.pdb
+E:\6-Programming Techniques\Projects\Part1\v3\ArtGallery\ArtGallery\bin\Debug\CGSLibrary.dll
+E:\6-Programming Techniques\Projects\Part1\v3\ArtGallery\ArtGallery\bin\Debug\CGSLibrary.pdb
+E:\6-Programming Techniques\Projects\Part1\v3\ArtGallery\ArtGallery\obj\Debug\ArtGallery.exe
+E:\6-Programming Techniques\Projects\Part1\v3\ArtGallery\ArtGallery\obj\Debug\ArtGallery.pdb

@@ -1,0 +1,14 @@
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\bin\Debug\ArtGallery.exe.config
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\ArtGallery.csprojResolveAssemblyReference.cache
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\MainWindow.g.cs
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\App.g.cs
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\ArtGallery_MarkupCompile.cache
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\ArtGallery_MarkupCompile.lref
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\bin\Debug\ArtGallery.exe
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\bin\Debug\ArtGallery.pdb
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\MainWindow.baml
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\ArtGallery.g.resources
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\ArtGallery.Properties.Resources.resources
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\ArtGallery.csproj.GenerateResource.Cache
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\ArtGallery.exe
+F:\6-Programming Techniques\Projects\Part2\ArtGallery\ArtGallery\obj\Debug\ArtGallery.pdb
